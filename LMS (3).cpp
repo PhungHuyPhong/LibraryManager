@@ -265,6 +265,7 @@ int main()
                           Book t=(bl.getbook(i));
                           std::cout<<i+1<<". Book name: "<<t.getbookname()<<" ID is: "<<t.getid()<<endl;
                         }
+                        break;
                     case 4:
                         cout<<"Enter method: "<<endl;
                         cout<<"1. By book's name"<<endl;
